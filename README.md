@@ -46,11 +46,16 @@ Control your Aether farming in Minecraft from a Discord bot — type a command i
 ---
 
 ## Step 4 — Configure the Bot
-
+1. Do /aetherremotecontrol and put in the following information:
+    - `DISCORD BOT TOKEN` — from Step 1
+    - `APPLICATION ID` — from Step 1
+    - `GUILD ID` — from Step 2
+2. Click **Save** and your bot should now be ready!
 
 In any channel your bot has access to:
 
 - `/aether start` — starts Aether farming
 - `/aether stop` — stops Aether farming
 - `/aether status` — sends a Discord webhook update (must have the webhook option configured in Aether)
+- `/aether chat` — sends a message to Minecraft chat
 ---
